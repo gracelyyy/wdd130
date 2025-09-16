@@ -1,0 +1,73 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+/* Limit main width */
+main {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+/* Profile image (main only) */
+main img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+/* Remove padding from paragraphs */
+p {
+  padding: 0;
+}
+
+/* Aside styling */
+aside {
+  width: 250px;
+  margin: 20px auto;
+  border: 2px solid #2c3e50;
+  padding: 10px;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto; /* maintain aspect ratio */
+  display: block;
+  margin: 10px auto;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 20px;
+  border-top: 2px solid #2c3e50;
+  text-align: center;
+  padding-top: 10px;
+}
