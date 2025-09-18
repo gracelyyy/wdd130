@@ -1,22 +1,18 @@
-/* Navigation */
 nav {
     background-color: palevioletred;
     padding: 10px;
 }
 
-/* Links inside nav */
 nav a {
     color: hsl(330, 100%, 91%);
     padding: 10px;
     display: block;
 }
 
-/* Headings */
 h1 {
     color: palevioletred;
 }
 
-/* All images */
 img {
     width: 150px;
     height: auto;
@@ -25,17 +21,14 @@ img {
     box-shadow: 0 0 30px silver;
 }
 
-/* Main container */
 main {
     max-width: 800px;
 }
 
-/* Paragraphs */
 p {
     padding: 0;
 }
 
-/* Aside section */
 aside {
     width: 20em;
     margin: 1em;
@@ -46,13 +39,11 @@ aside {
     text-align: center;
 }
 
-/* Images in aside */
 aside img {
     width: 200px;
     height: auto;
 }
 
-/* Footer */
 footer {
     margin-top: 1em;
     border-top: 1px solid black;
