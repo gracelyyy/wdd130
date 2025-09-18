@@ -1,73 +1,47 @@
-/* Reset and base styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
-
-header {
-  text-align: center;
-  margin-bottom: 20px;
+nav {
+    background-color: palevioletred;
+    padding: 10px;
 }
 
 nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #2c3e50;
+    color: hsl(330, 100%, 91%);
+    padding: 10px;
+    display: block;
 }
 
-/* Limit main width */
-main {
-  max-width: 800px;
-  margin: 0 auto 20px auto;
+h1 {
+    color: palevioletred;
 }
 
-/* Profile image (main only) */
 main img {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin: 10px auto;
-  border-radius: 8px;
+    width: 150px;
+    height: auto;
+    border: 1px solid palevioletred;
+    padding: 2px;
+    box-shadow: 0 0 30px silver;
 }
 
-/* Remove padding from paragraphs */
 p {
-  padding: 0;
+    padding: 0;
 }
 
-/* Aside styling */
 aside {
-  width: 250px;
-  margin: 20px auto;
-  border: 2px solid #2c3e50;
-  padding: 10px;
-  background-color: #ecf0f1;
-  color: #2c3e50;
-  text-align: center;
+    width: 20em;
+    margin: 1em;
+    border: 1px solid palevioletred(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: azure;
+    color: black;
+    text-align: center;
 }
 
 aside img {
-  width: 200px;
-  height: auto; /* maintain aspect ratio */
-  display: block;
-  margin: 10px auto;
+    width: 200px;
+    height: auto;
 }
 
-/* Footer styling */
 footer {
-  margin-top: 20px;
-  border-top: 2px solid #2c3e50;
-  text-align: center;
-  padding-top: 10px;
+    margin-top: 1em;
+    border-top: 1px solid black;
+    text-align: center;
 }
