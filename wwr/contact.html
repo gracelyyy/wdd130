@@ -1,35 +1,77 @@
-<section class="contact-form">
-  <h2>Contact Us</h2>
-  <p>Have questions about our rafting adventures? Fill out the form below and we’ll get back to you!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Rafting Adventures</title>
+    <link rel="stylesheet" href="css/rafting.css"> 
+</head>
+<body>
 
-  <form action="#" method="post">
+    <header>
+        <h1>Rafting Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <label for="fullName">Full Name:</label>
-    <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <p>Have questions about our rafting adventures? Fill out the form below and we’ll get back to you!</p>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <form action="#" method="post">
 
-    <label for="phone">Phone Number:</label>
-    <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
 
-    <p>Choose Adventure Type:</p>
-    <label for="adventureEasy">Easy</label>
-    <input type="radio" id="adventureEasy" name="adventureType" value="easy">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
 
-    <label for="adventureModerate">Moderate</label>
-    <input type="radio" id="adventureModerate" name="adventureType" value="moderate">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
 
-    <label for="adventureExtreme">Extreme</label>
-    <input type="radio" id="adventureExtreme" name="adventureType" value="extreme">
+            <p>Choose Adventure Type:</p>
+            <label for="adventureEasy">Easy</label>
+            <input type="radio" id="adventureEasy" name="adventureType" value="easy">
 
-    <label for="date">Preferred Date:</label>
-    <input type="date" id="date" name="raftingDate">
+            <label for="adventureModerate">Moderate</label>
+            <input type="radio" id="adventureModerate" name="adventureType" value="moderate">
 
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+            <label for="adventureExtreme">Extreme</label>
+            <input type="radio" id="adventureExtreme" name="adventureType" value="extreme">
 
-    <button type="submit">Submit</button>
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="raftingDate">
 
-  </form>
-</section>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+
+    <section class="gallery">
+        <h2>Rafting Adventures Gallery</h2>
+        <p>Experience the thrill of rafting with us! Here’s a glimpse of what to expect:</p>
+
+        <img src="images/hero.jpg" alt="Rafting hero image with scenic river view">
+        <img src="images/rafting1.jpg" alt="Group rafting on a calm river">
+        <img src="images/rafting2.jpg" alt="Rafting team navigating rapids">
+        <img src="images/rafting3.jpg" alt="Rafting instructor guiding the group through rapids">
+        <img src="images/rafting4.jpg" alt="Rafting on a sunny day surrounded by mountains">
+        <img src="images/rafting5.jpg" alt="Close-up of paddles in action during rafting adventure">
+        <img src="images/rafting6.jpg" alt="Group celebrating after completing a rafting trip">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rafting Adventures</p>
+    </footer>
+
+</body>
+</html>
