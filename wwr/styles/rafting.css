@@ -2,6 +2,7 @@
     --primary-color: #1d3557;
     --secondary-color: #457b9d;
     --accent-color: #a8dadc;
+    --light-color: #f1faee;
 }
 
 * {
@@ -11,10 +12,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
+    color: #333;
 }
+
 
 header {
     display: grid;
@@ -39,13 +42,14 @@ nav a {
     font-weight: bold;
 }
 
+
 .hero {
     position: relative;
 }
 
 .hero img {
-    width: 100%;
     display: block;
+    width: 100%;
 }
 
 .hero h1 {
@@ -54,7 +58,7 @@ nav a {
     width: 100%;
     text-align: center;
     color: white;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem;
 }
 
@@ -63,7 +67,7 @@ nav a {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255,255,255,.85);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 1rem;
 }
 
@@ -72,6 +76,7 @@ nav a {
     width: 150px;
     margin-left: 1rem;
 }
+
 
 .history {
     padding: 2rem;
@@ -92,6 +97,7 @@ nav a {
 .history-content img {
     width: 250px;
 }
+
 
 .adventures {
     padding: 2rem;
@@ -118,6 +124,7 @@ nav a {
     object-fit: cover;
 }
 
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -127,11 +134,15 @@ footer {
     color: white;
 }
 
-.sociallinks {
+.socialmedia {
     display: flex;
     gap: 10px;
 }
 
-.sociallinks img {
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
     width: 32px;
 }
